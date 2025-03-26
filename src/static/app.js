@@ -87,4 +87,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Initialize app
   fetchActivities();
+
+  document.getElementById("theme-toggle").addEventListener("click", () => {
+    document.body.classList.toggle("dark-theme");
+  });
 });
